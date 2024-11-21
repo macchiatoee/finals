@@ -1,0 +1,102 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background-color: #000;
+  background-image: url('../img/homepagebg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+ 
+}
+
+.header {
+  
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 60px;
+}
+
+.header .logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header button {
+  background-color: transparent;
+  color: white; 
+  border: none; 
+  cursor: pointer; 
+  text-decoration: none; 
+  font-size: 20px; 
+  padding: 0; 
+  margin: 0 10px; 
+}
+
+
+
+.header button:hover {
+  background-color: #555;
+}
+
+.hero-text {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.hero-text p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.hero-image {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.gallery {
+  margin-top: 60px;
+}
+
+.gallery h2 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery-grid img {
+  width: 250px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.gallery-grid img:hover {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+p{
+
+  text-align: center;
+}
